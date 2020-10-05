@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">webrtc-demo</string>
+    <string name="roomname">Room Name</string>
+</resources>
