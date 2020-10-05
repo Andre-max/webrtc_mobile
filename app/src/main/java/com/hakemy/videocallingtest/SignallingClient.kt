@@ -111,6 +111,9 @@ class SignallingClient(
             listener.onConnectionEstablished()
             val sendData = sendChannel.openSubscription()
 
+
+
+
                 while (true) {
 
 
