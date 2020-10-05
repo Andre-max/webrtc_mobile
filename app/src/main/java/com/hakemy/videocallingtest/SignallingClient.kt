@@ -115,6 +115,10 @@ class SignallingClient(
 
 
 
+
+
+
+
                     sendData.poll()?.let {
                         Log.v(this@SignallingClient.javaClass.simpleName, "Sending: $it")
                         outgoing.send(Frame.Text(it))
